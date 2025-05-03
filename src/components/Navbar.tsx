@@ -23,19 +23,19 @@ const Navbar = () => {
     <nav
       className={cn(
         'fixed w-full top-0 z-50 transition-all duration-300 py-4',
-        isScrolled ? 'bg-white/80 shadow-sm backdrop-blur-md' : 'bg-transparent'
+        isScrolled ? 'bg-gray-dark/80 shadow-sm backdrop-blur-md' : 'bg-transparent'
       )}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center">
         <div className="flex-shrink-0">
-          <a href="#" className="text-2xl font-bold text-purple-dark">
+          <a href="#" className="text-2xl font-bold text-purple">
             UGCPro
           </a>
         </div>
         
         {/* Mobile menu button */}
         <button 
-          className="md:hidden p-2 rounded-md text-gray-dark hover:bg-purple-light hover:text-gray-900"
+          className="md:hidden p-2 rounded-md text-white hover:bg-white/10 hover:text-purple transition-colors"
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
         >
           {mobileMenuOpen ? (
@@ -51,19 +51,19 @@ const Navbar = () => {
         
         {/* Desktop menu */}
         <div className="hidden md:flex items-center space-x-8">
-          <a href="#benefits" className="text-gray-dark hover:text-purple transition-colors">
+          <a href="#benefits" className="text-gray-300 hover:text-purple transition-colors">
             Benefits
           </a>
-          <a href="#packages" className="text-gray-dark hover:text-purple transition-colors">
+          <a href="#packages" className="text-gray-300 hover:text-purple transition-colors">
             Packages
           </a>
-          <a href="#showcase" className="text-gray-dark hover:text-purple transition-colors">
+          <a href="#showcase" className="text-gray-300 hover:text-purple transition-colors">
             Portfolio
           </a>
-          <a href="#about" className="text-gray-dark hover:text-purple transition-colors">
+          <a href="#about" className="text-gray-300 hover:text-purple transition-colors">
             About
           </a>
-          <a href="#faq" className="text-gray-dark hover:text-purple transition-colors">
+          <a href="#faq" className="text-gray-300 hover:text-purple transition-colors">
             FAQ
           </a>
           <a href="#order" className="btn-primary">
@@ -74,23 +74,23 @@ const Navbar = () => {
       
       {/* Mobile menu dropdown */}
       <div className={cn(
-        "md:hidden absolute w-full bg-white shadow-lg transition-all duration-300 ease-in-out",
+        "md:hidden absolute w-full bg-gray-dark/90 backdrop-blur-md shadow-lg transition-all duration-300 ease-in-out",
         mobileMenuOpen ? "max-h-96 py-4" : "max-h-0 overflow-hidden"
       )}>
         <div className="flex flex-col space-y-4 px-4">
-          <a href="#benefits" className="text-gray-dark hover:text-purple py-2 transition-colors" onClick={() => setMobileMenuOpen(false)}>
+          <a href="#benefits" className="text-gray-300 hover:text-purple py-2 transition-colors" onClick={() => setMobileMenuOpen(false)}>
             Benefits
           </a>
-          <a href="#packages" className="text-gray-dark hover:text-purple py-2 transition-colors" onClick={() => setMobileMenuOpen(false)}>
+          <a href="#packages" className="text-gray-300 hover:text-purple py-2 transition-colors" onClick={() => setMobileMenuOpen(false)}>
             Packages
           </a>
-          <a href="#showcase" className="text-gray-dark hover:text-purple py-2 transition-colors" onClick={() => setMobileMenuOpen(false)}>
+          <a href="#showcase" className="text-gray-300 hover:text-purple py-2 transition-colors" onClick={() => setMobileMenuOpen(false)}>
             Portfolio
           </a>
-          <a href="#about" className="text-gray-dark hover:text-purple py-2 transition-colors" onClick={() => setMobileMenuOpen(false)}>
+          <a href="#about" className="text-gray-300 hover:text-purple py-2 transition-colors" onClick={() => setMobileMenuOpen(false)}>
             About
           </a>
-          <a href="#faq" className="text-gray-dark hover:text-purple py-2 transition-colors" onClick={() => setMobileMenuOpen(false)}>
+          <a href="#faq" className="text-gray-300 hover:text-purple py-2 transition-colors" onClick={() => setMobileMenuOpen(false)}>
             FAQ
           </a>
           <a href="#order" className="btn-primary text-center my-2" onClick={() => setMobileMenuOpen(false)}>

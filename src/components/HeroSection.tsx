@@ -4,15 +4,16 @@ import { ArrowRight } from 'lucide-react';
 
 const HeroSection = () => {
   return (
-    <section className="pt-32 pb-16 md:pt-40 md:pb-24 overflow-hidden">
+    <section className="pt-32 pb-12 md:pt-36 md:pb-16 overflow-hidden bg-gradient-to-b from-gray-dark to-gray-dark/90">
       <div className="section-container">
         <div className="flex flex-col-reverse md:flex-row items-center justify-between gap-12">
           <div className="w-full md:w-1/2 animate-fade-in">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-dark leading-tight mb-6">
-              Get Viral <span className="text-purple">UGC Videos</span> That Sell Your SaaS in 30 Seconds or Less
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-tight mb-6">
+              1 Billion on TikTok. 2 Billion on Facebook Reels. 3 Billion on YouTube Shorts. 4 Billion on Instagram.
+              <span className="text-purple block mt-2">And you're still struggling to get 10,000 users?</span>
             </h1>
-            <p className="text-lg md:text-xl text-gray mb-8 max-w-2xl">
-              I create viral-style videos that mix trending content with your SaaS product to drive clicks, signups, and conversions.
+            <p className="text-lg md:text-xl text-gray-300 mb-8 max-w-2xl">
+              I create viral UGC videos that remix trends and showcase your SaaS product — so people stop scrolling and start signing up.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a href="#demo" className="btn-primary flex items-center justify-center gap-2">
