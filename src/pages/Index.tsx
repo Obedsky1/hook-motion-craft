@@ -14,31 +14,31 @@ import Footer from '../components/Footer';
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-gray-dark via-[#221F26] to-gray-dark">
+    <div className="min-h-screen bg-white">
       <Navbar />
       <HeroSection />
-      <div className="py-6 md:py-8" id="demo">
+      <div className="py-4 md:py-6" id="demo">
         <VideoDemo />
       </div>
-      <div className="py-6 md:py-8" id="benefits">
+      <div className="py-4 md:py-6" id="benefits">
         <Benefits />
       </div>
-      <div className="py-6 md:py-8" id="packages">
+      <div className="py-4 md:py-6" id="packages">
         <PricingCards />
       </div>
-      <div className="py-6 md:py-8" id="showcase">
+      <div className="py-4 md:py-6" id="showcase">
         <ImageShowcase />
       </div>
-      <div className="py-6 md:py-8">
+      <div className="py-4 md:py-6">
         <Testimonials />
       </div>
-      <div className="py-6 md:py-8" id="about">
+      <div className="py-4 md:py-6" id="about">
         <AboutMe />
       </div>
-      <div className="py-6 md:py-8" id="faq">
+      <div className="py-4 md:py-6" id="faq">
         <FaqSection />
       </div>
-      <div className="py-6 md:py-10" id="order">
+      <div className="py-4 md:py-8" id="order">
         <OrderForm />
       </div>
       <Footer />
