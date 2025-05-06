@@ -20,8 +20,8 @@ const HeroSection = () => {
                 Watch Demo
                 <ArrowRight size={18} />
               </a>
-              <a href="#order" className="btn-secondary flex items-center justify-center gap-2">
-                Order Your Video
+              <a href="#preview" className="btn-secondary flex items-center justify-center gap-2">
+                Preview More Videos
               </a>
             </div>
           </div>

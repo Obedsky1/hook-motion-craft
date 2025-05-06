@@ -66,8 +66,8 @@ const Navbar = () => {
           <a href="#faq" className="text-gray-300 hover:text-purple transition-colors">
             FAQ
           </a>
-          <a href="#order" className="btn-primary">
-            Order Now
+          <a href="#preview" className="btn-primary">
+            Preview Demos
           </a>
         </div>
       </div>
@@ -93,8 +93,8 @@ const Navbar = () => {
           <a href="#faq" className="text-gray-300 hover:text-purple py-2 transition-colors" onClick={() => setMobileMenuOpen(false)}>
             FAQ
           </a>
-          <a href="#order" className="btn-primary text-center my-2" onClick={() => setMobileMenuOpen(false)}>
-            Order Now
+          <a href="#preview" className="btn-primary text-center my-2" onClick={() => setMobileMenuOpen(false)}>
+            Preview Demos
           </a>
         </div>
       </div>
